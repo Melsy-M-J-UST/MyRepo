@@ -1,0 +1,9 @@
+C:\Users\310054\source\repos\Sprint3_HandsOn\EmployeeBlazorApp\EmployeeBlazorApp\obj\Debug\net10.0\EmbeddedAttribute.cs
+C:\Users\310054\source\repos\Sprint3_HandsOn\EmployeeBlazorApp\EmployeeBlazorApp\obj\Debug\net10.0\ValidatableTypeAttribute.cs
+C:\Users\310054\source\repos\Sprint3_HandsOn\EmployeeBlazorApp\EmployeeBlazorApp\obj\Debug\net10.0\EmployeeBlazorApp.csproj.AssemblyReference.cache
+C:\Users\310054\source\repos\Sprint3_HandsOn\EmployeeBlazorApp\EmployeeBlazorApp\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\310054\source\repos\Sprint3_HandsOn\EmployeeBlazorApp\EmployeeBlazorApp\obj\Debug\net10.0\EmployeeBlazorApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\310054\source\repos\Sprint3_HandsOn\EmployeeBlazorApp\EmployeeBlazorApp\obj\Debug\net10.0\EmployeeBlazorApp.AssemblyInfoInputs.cache
+C:\Users\310054\source\repos\Sprint3_HandsOn\EmployeeBlazorApp\EmployeeBlazorApp\obj\Debug\net10.0\EmployeeBlazorApp.AssemblyInfo.cs
+C:\Users\310054\source\repos\Sprint3_HandsOn\EmployeeBlazorApp\EmployeeBlazorApp\obj\Debug\net10.0\EmployeeBlazorApp.csproj.CoreCompileInputs.cache
+C:\Users\310054\source\repos\Sprint3_HandsOn\EmployeeBlazorApp\EmployeeBlazorApp\obj\Debug\net10.0\EmployeeBlazorApp.MvcApplicationPartsAssemblyInfo.cache

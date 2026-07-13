@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|c:\\users\\310054\\source\\repos\\sprint3_handson\\myblazorapp\\myblazorapp\\components\\mycounter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|solutionrelative:myblazorapp\\components\\mycounter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|c:\\users\\310054\\source\\repos\\sprint3_handson\\myblazorapp\\myblazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|solutionrelative:myblazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|c:\\users\\310054\\source\\repos\\sprint3_handson\\myblazorapp\\myblazorapp\\components\\greet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|solutionrelative:myblazorapp\\components\\greet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|c:\\users\\310054\\source\\repos\\sprint3_handson\\myblazorapp\\myblazorapp\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|solutionrelative:myblazorapp\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|c:\\users\\310054\\source\\repos\\sprint3_handson\\myblazorapp\\myblazorapp\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|solutionrelative:myblazorapp\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|c:\\users\\310054\\source\\repos\\sprint3_handson\\myblazorapp\\myblazorapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|solutionrelative:myblazorapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|c:\\users\\310054\\source\\repos\\sprint3_handson\\myblazorapp\\myblazorapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|solutionrelative:myblazorapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|c:\\users\\310054\\source\\repos\\sprint3_handson\\myblazorapp\\myblazorapp\\components\\pages\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|solutionrelative:myblazorapp\\components\\pages\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|c:\\users\\310054\\source\\repos\\sprint3_handson\\myblazorapp\\myblazorapp\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|solutionrelative:myblazorapp\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|c:\\users\\310054\\source\\repos\\sprint3_handson\\myblazorapp\\myblazorapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|solutionrelative:myblazorapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|c:\\users\\310054\\source\\repos\\sprint3_handson\\myblazorapp\\myblazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|solutionrelative:myblazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|c:\\users\\310054\\source\\repos\\sprint3_handson\\myblazorapp\\myblazorapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A9024B8E-D97E-4292-B261-5FA4DCCDCF01}|MyblazorApp\\MyblazorApp.csproj|solutionrelative:myblazorapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyCounter.razor",
+              "DocumentMoniker": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\Components\\MyCounter.razor",
+              "RelativeDocumentMoniker": "MyblazorApp\\Components\\MyCounter.razor",
+              "ToolTip": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\Components\\MyCounter.razor",
+              "RelativeToolTip": "MyblazorApp\\Components\\MyCounter.razor",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-19T06:15:39.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Greet.razor",
+              "DocumentMoniker": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\Components\\Greet.razor",
+              "RelativeDocumentMoniker": "MyblazorApp\\Components\\Greet.razor",
+              "ToolTip": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\Components\\Greet.razor",
+              "RelativeToolTip": "MyblazorApp\\Components\\Greet.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-19T06:06:27.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "MyblazorApp\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\Components\\_Imports.razor",
+              "RelativeToolTip": "MyblazorApp\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-19T06:02:11.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "MyblazorApp\\Components\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "MyblazorApp\\Components\\Pages\\Weather.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-19T06:02:05.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "MyblazorApp\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "MyblazorApp\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-19T06:01:49.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "MyblazorApp\\Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "MyblazorApp\\Components\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-19T06:01:47.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\Components\\App.razor",
+              "RelativeDocumentMoniker": "MyblazorApp\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\Components\\App.razor",
+              "RelativeToolTip": "MyblazorApp\\Components\\App.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-19T06:02:17.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NotFound.razor",
+              "DocumentMoniker": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\Components\\Pages\\NotFound.razor",
+              "RelativeDocumentMoniker": "MyblazorApp\\Components\\Pages\\NotFound.razor",
+              "ToolTip": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\Components\\Pages\\NotFound.razor",
+              "RelativeToolTip": "MyblazorApp\\Components\\Pages\\NotFound.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-19T06:02:01.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Error.razor",
+              "DocumentMoniker": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\Components\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "MyblazorApp\\Components\\Pages\\Error.razor",
+              "ToolTip": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\Components\\Pages\\Error.razor",
+              "RelativeToolTip": "MyblazorApp\\Components\\Pages\\Error.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-19T06:01:56.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "MyblazorApp\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "MyblazorApp\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-19T06:01:31.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\appsettings.json",
+              "RelativeDocumentMoniker": "MyblazorApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\appsettings.json",
+              "RelativeToolTip": "MyblazorApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-19T06:01:03.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\Program.cs",
+              "RelativeDocumentMoniker": "MyblazorApp\\Program.cs",
+              "ToolTip": "C:\\Users\\310054\\source\\repos\\Sprint3_HandsOn\\MyblazorApp\\MyblazorApp\\Program.cs",
+              "RelativeToolTip": "MyblazorApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:00:27.294Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+﻿@page "/login"
+@layout EmptyLayout
+@inject AuthService Auth
+@inject NavigationManager Nav
+
+<div class="login-wrapper">
+    <div class="login-card">
+        <h2 class="title">Admin Login</h2>
+
+        <div class="input-group">
+            <input type="password" @bind="password" placeholder="Enter password" />
+        </div>
+
+        <button class="login-btn" @onclick="HandleLogin">Login</button>
+
+        @if (!string.IsNullOrEmpty(error))
+        {
+            <p class="error">@error</p>
+        }
+    </div>
+</div>
+
+@code {
+    private string password = "";
+    private string error = "";
+
+    private void HandleLogin()
+    {
+        if (password == "admin123")
+        {
+            Nav.NavigateTo("/dashboard", true);
+        }
+        else
+        {
+            error = "Invalid password!";
+        }
+    }
+}

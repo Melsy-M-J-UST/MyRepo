@@ -1,0 +1,39 @@
+﻿@page "/dashboard"
+@inject NavigationManager Nav
+@inject AuthService Auth
+<PageTitle>Home</PageTitle>
+
+<h3>Admin Dashboard</h3>
+
+@if (!Auth.IsAuthenticated)
+{
+    <p>Redirecting...</p>
+}
+else
+{
+    <button @onclick="Logout">Logout</button>
+
+    <div class="dashboard">
+        <h4>Welcome Admin 🎯</h4>
+    </div>
+}
+
+@code {
+    protected override void OnInitialized()
+    {
+        if (!Auth.IsAuthenticated)
+        {
+            Nav.NavigateTo("/login");
+        }
+        else
+        {
+            Nav.NavigateTo("/dashboard");
+        }
+    }
+
+    private void Logout()
+    {
+        Auth.Logout();
+        Nav.NavigateTo("/login");
+    }
+}
