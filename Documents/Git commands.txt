@@ -1,0 +1,76 @@
+git pull origin main
+git add .
+git commit -m "message"
+pull request
+
+
+sqp_d2cbb8e3d6f7da1d18fde5039a4b6bee283abfb4
+
+> dotnet tool install --global dotnet-sonarscanner  
+dotnet sonarscanner begin /k:"HealthAxis" /d:sonar.host.url="http://localhost:9000"  /d:sonar.token="sqp_d2cbb8e3d6f7da1d18fde5039a4b6bee283abfb4"
+dotnet build
+dotnet sonarscanner end /d:sonar.token="sqp_d2cbb8e3d6f7da1d18fde5039a4b6bee283abfb4"   
+
+
+sqp_760cae199712265f9c17d8b6621326622bb90fb4
+dotnet tool install --global dotnet-sonarscanner
+dotnet sonarscanner begin /k:"HealthAxis" /d:sonar.exclusions="**/Program.cs,**/Data/**,**/Models/**,**/Exceptions/**" /d:sonar.host.url="http://localhost:9000"  /d:sonar.token="sqp_760cae199712265f9c17d8b6621326622bb90fb4"
+dotnet build
+dotnet sonarscanner end /d:sonar.token="sqp_760cae199712265f9c17d8b6621326622bb90fb4"
+
+dotnet sonarscanner begin /k:"HealthAxis" /d:sonar.exclusions="**/Program.cs,**/Data/**,**/Models/**,**/Exceptions/**" /d:sonar.host.url="http://localhost:9000" /d:sonar.token="sqp_760cae199712265f9c17d8b6621326622bb90fb4" /d:sonar.cs.vscoveragexml.reportsPaths="coverage.xml"
+
+
+
+
+
+
+
+
+
+sqp_e9d67778091d2717b440ece8e2e16fbea1c5d50d
+
+dotnet sonarscanner begin /k:"HealthAxisMain" /d:sonar.exclusions="**/Program.cs,**/Data/**,**/Models/**,**/Exceptions/**" /d:sonar.host.url="http://localhost:9000" /d:sonar.token="sqp_e9d67778091d2717b440ece8e2e16fbea1c5d50d" /d:sonar.cs.vscoveragexml.reportsPaths="coverage.xml"
+
+dotnet build
+
+dotnet-coverage collect "dotnet test" -f xml -o "coverage.xml"
+   
+dotnet sonarscanner end /d:sonar.token="sqp_e9d67778091d2717b440ece8e2e16fbea1c5d50d"
+
+
+
+sqp_7c042af0b10437753977530c0d9dc5b3228f6ea2
+
+dotnet sonarscanner begin /k:"HealthAxis" /d:sonar.exclusions="**/Program.cs,**/Data/**,**/Models/**,**/Exceptions/**"  /d:sonar.host.url="http://localhost:9000"  /d:sonar.token="sqp_7c042af0b10437753977530c0d9dc5b3228f6ea2"
+
+dotnet build
+
+dotnet sonarscanner end /d:sonar.token="sqp_7c042af0b10437753977530c0d9dc5b3228f6ea2"
+
+
+dotnet sonarscanner begin /k:"HealthAxis" /d:sonar.host.url="http://localhost:9000" /d:sonar.token="sqp_7c042af0b10437753977530c0d9dc5b3228f6ea2" /d:sonar.cs.opencover.reportsPaths=coverage.xml /d:sonar.exclusions=**/bin/**,**/obj/**,**/Program.cs,**/Data/**,**/Models/**,**/Exceptions/**
+
+dotnet build
+
+dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+
+dotnet sonarscanner end /d:sonar.token="sqp_7c042af0b10437753977530c0d9dc5b3228f6ea2"
+
+
+
+
+
+
+
+
+
+
+
+
+//test
+sqp_c3ab3b47f8b0dce01278ed43285882d88d9ead0c
+dotnet sonarscanner begin /k:"Test" /d:sonar.host.url="http://localhost:9000"  /d:sonar.token="sqp_c3ab3b47f8b0dce01278ed43285882d88d9ead0c"
+dotnet build
+dotnet-coverage collect "dotnet test" -f xml -o "coverage.xml"
+dotnet sonarscanner end /d:sonar.token="sqp_c3ab3b47f8b0dce01278ed43285882d88d9ead0c"

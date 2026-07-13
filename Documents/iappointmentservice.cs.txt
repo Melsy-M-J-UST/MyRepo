@@ -1,0 +1,68 @@
+public interface IAppointmentService
+{
+    {{Appointment class name}} BookAppointment(string patientId, string doctorId, DateTime date, string slot);
+    bool CancelAppointment(string appointmentId, string reason);
+    List<Appointment> GetAppointmentsByPatient(string patientId);
+    List<Appointment> GetAppointmentsByDoctor(string doctorId);
+    List<Appointment> GetUpcomingAppointments();
+}
+ 
+
+
+
+
+
+
+public class AppointmentService : IAppointmentService
+{
+    private readonly List<Appointment> _appointments = new List<Appointment>(); 
+
+    public Appointment BookAppointment(string patientId, string doctorId, DateTime date, string slot)
+    {
+        var appointment = new Appointment
+        {
+            PatientId = patientId,
+            DoctorId = doctorId,
+            Date = date,
+            Slot = slot,
+            Status = AppointmentStatus.Confirmed
+        };
+
+        _appointments.Add(appointment);
+        return appointment;
+    }
+
+    public bool CancelAppointment(string appointmentId, string reason)
+    {
+        var appointment = _appointments.FirstOrDefault(a => a.Id == appointmentId);
+
+        if (appointment == null)
+            return false;
+
+        appointment.Status = AppointmentStatus.Cancelled;
+        appointment.CancelReason = reason;
+
+        return true;
+    }
+
+    public List<Appointment> GetAppointmentsByPatient(string patientId)
+    {
+        return _appointments
+            .Where(a => a.PatientId == patientId)
+            .ToList();
+    }
+
+    public List<Appointment> GetAppointmentsByDoctor(string doctorId)
+    {
+        return _appointments
+            .Where(a => a.DoctorId == doctorId)
+            .ToList();
+    }
+
+    public List<Appointment> GetUpcomingAppointments()
+    {
+        return _appointments
+            .Where(a => a.Date > DateTime.Now && a.Status == AppointmentStatus.Confirmed)
+            .ToList();
+    }
+}

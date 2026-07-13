@@ -1,0 +1,124 @@
+Sprint 3
+
+orm object 
+1 -1 mapping between c# objects and the corresponding columns in table
+
+boiler plate code repetation of codes      can be avoided
+dapper 
+nhibernate for dotnet like hibernate for java.
+
+EF Core
+
+
+
+add-migration Initial
+
+
+Day 3
+JWT authentication
+
+authentication : validating who is using that ur like id, password
+authorization : permission to access certain resources.
+principle : authenticated user
+authority : permissions
+
+pkg installer
+install-package Microsoft.aspnetcore.identity.entityframeworkcore
+install-package Microsoft.aspnetcore.authentication.jwtbearer
+install-package system.identitymodel.tokens.jwt
+
+    public class AppDbContext : IdentityDbContext<IdentityUser>   in AppDb Context
+
+PM> add-migration ASPNETIdentityAdded
+
+
+
+
+
+
+dtos
+appsettings jwt
+
+
+payloads
+
+sha 256
+
+jwt.io
+
+
+
+
+Week 6
+19-06-2026
+
+Razer components building blocks of blazer
+
+html + @code
+
+@code converted to c# class
+counter.razor.g file internally created cannot be seen
+@page "url"
+@inject Icounter svc
+normal html
+@code
+
+
+Blazor is a .NET web framework that lets you build interactive 
+
+Blazor Server vs Blazor WebAssembly
+
+
+
+
+
+
+
+Blazor Server                                                       Blazor WebAssembly
+
+Browser                   Server                                      Browser - Everything runs here
+ 
+JS Stub     SignalR
+            WebSocket                                                       .NET Runtime (WebAssembly)
+(tiny)
+                             
+DOM                                                                 + Your Blazor App (C# DLLs)
+
+
+                                                                     no javascript
+								initial load is more
+
+
+C# runs
+here
+
+Render Tree
+
+Server
+(optional)
+
+Full .NET APIs & EF Core
+
+Fast first page load
+Small client download
+
+V Works on older browsers
+X Needs live server connection
+
+X Memory per user session
+
+Works offline after first load
+Static host (CDN / GitHub Pages)
+No server memory per user
+X Large initial download (~10 MB)
+X Browser sandbox limitations
+
+This training uses Blazor Server - simpler setup, full .NET APIs, EF Core out-of-the-box
+
+//WebAssembly is recommended.
+
+
+
+oninitialised      for the first tiem
+
+@inject service

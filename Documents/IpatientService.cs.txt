@@ -1,0 +1,12 @@
+IpatientService.cs
+using AppointmentPortal.ConsoleApp.Models;
+
+namespace AppointmentPortal.ConsoleApp.Services
+{
+    public interface IPatientService
+    {
+        Patient RegisterPatient(Patient patient);
+        Patient? GetProfileSummary(int patientId);
+        List<Patient> GetAllPatients();
+    }
+}

@@ -1,0 +1,165 @@
+14-05-2026
+
+
+private string "uytgf";
+public string Name{     // Name as accessor
+get{
+return -name;
+}
+set{
+_name=value;
+}
+}
+
+
+
+init; only once
+set; anytimes
+
+
+coding Convention= Pascal Case
+virtual (in parent class) to override(child class)
+override DisplY()
+{
+BASE.dISPLAY();
+Console.WriteLine($"gender:{GVender}, id, salary);
+ref variable parent class can be pointed to a child class
+person[0]=new class{parent/child}
+
+runtime polymlrphsm/dynamic class
+
+
+same name of method and calling from diffent classes       dynamic polymorphism
+same name different size/type/sequence of parameter        static polymorphism
+
+members access modifiers
+protected class, subclasses irrespective of assembly      // assembly is the byte code as in java
+private in the class //default
+public everywhere
+internal   in the assembly
+protected internal any class in assembly + derived in other assembly
+private protected same class, subclass in  sameassembly
+
+class access modifiers
+internal(default), public
+
+abstract class with no implementation
+abstract no objects can be created
+ctrl+./alt+. to see soln
+
+interface with only abstract classes// static methods can be created
+right click, add, class, interface/class/fgkdsf
+
+abstract is the parent-child relationships inheritance
+interface common behavior no need of an inheritance
+
+static no object is required; like not object oriented but class oriented
+others  objects are required; object oriented but not class oriented
+
+
+no multiple class inheritance in C# but multiple interface inheritance can be there
+sealed class cannot be inherited // like final in java
+
+
+collections data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15-05-2026
+
+iennumerable ilist iset
+implementation = multi layerd architecture. 
+Repository/data access layer- how to communicate with dabase
+service layer- business logic|^
+ui- user interaction |^
+separation of concerns- all the tasks are different
+
+LINQ=Language Integrated Query
+ArrayList no fixed  and any datatype can be added//Non-generic datatype
+List<string> names=new List<string();//generic datatype
+names.Add("string");
+stack       NON generic
+static<> //generic
+peek only to view
+
+queue                         //non generic
+dictionary
+Dictionsry<int, string>= map new Dictionary<int>
+next is creating a database;
+public list<>
+namespace 
+public interface Iemp
+{
+List<EMp? VGetALL():
+Employee GetById(int id);
+string Addemployee(Employee employee);
+string UpdateEmployee(int id, Employee employee);
+string DeleteEmployee(int id);
+}
+EmployeeDb._employeeDb.Add(employee);
+return "Employee Added Successfully!";
+repository interacts with database not the user. so in an interface, we should not write console.WriteLine. because using writeline, we speak to users
+calculations in the service layer.
+all the data stored in repository data layer and service layer have all the operations required 
+run time error are exception
+
+Name:Exception inherited from exception construct a class inheriting from paraent class exception
+public class EmployeeNotFoundException: Ecxception{
+public Employee 
+
+var employeee=EmployeeDb._employeeDb.FirstOrDefault(emp=> emp.Id =id);
+if(Employee==null){// employee is null
+throw new EmployeeNotFoundException($"notfound{empid}"};
+EmployeeDb._employeeDb.remove(employee);
+return Emp id
+return EmployeeDb._employeeDb.ToList();
+
+objects ore instances of interfaces cannot be created. only created with ref to the child classes inherited from the interface class
+service layer return statement
+return _repo.fnName();
+
+using EmpApp.Service;
+using EmpApp.Service.ImImpl;
+IEmployeeService service =new EmployeeService();
+Convert.ToInt32(readline stmt)
+var appointment=service.GetAll();
+foreach(emp in appointment{
+
+Consolde.writeline(appointment);
+}
+
+product  id name price
+
+patients add and get details by id
+
+16-05-2026
+
+Solid : single responsibility dependency inversion
+loosely coupled / decouple 
+dependency injection, if new method is created, we can  //java spring
+
+Each layers are tested individually in unit testing
+integrated testing like tightly coupled
+
+
+singleton one instance throughout the program
+add scope one instance per req
+transient one instance each time

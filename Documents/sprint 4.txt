@@ -1,0 +1,6 @@
+sprint 4
+
+
+install-package RabbitMq.Client
+
+app settings

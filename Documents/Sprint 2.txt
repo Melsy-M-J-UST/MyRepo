@@ -1,0 +1,453 @@
+Sprint 2
+
+28-05-2026
+
+SQL
+- predefined schema
+-vertical scaling
+--single server more resources
+-ACID Consistant
+--Atomicity transaction(unit of work- collection of sql statements for a single unit and all parts should work) part of transaction worked and another didn't work
+either complete stmts should be completed or none are completed
+--Consistency (
+--Isolation(No 2 Transactions are dependent)
+--Durability (After the transaction also data is durable.)
+Checks data
+NoSQL
+-more performance
+-big data scenarios
+- horizontal scaling/ Elastic Scaling
+--collections split across different servers
+No check of Data
+No structure
+faster data processing
+MongoDb
+
+
+NoSQL
+-Document Store
+--MongoDb
+-Key-Value
+-Column Family
+-Database
+
+row - related piece of data.
+primary key- colum that uniquely identifies a row. not null.
+candidate key- both are eligible for primary key. one will be primary other is alternate key
+surrogate - no business value and is created only to identify
+natural - email id contains a business value and thus its a natural key
+foreign key- connecting 2 tables. Integrity constraints i.e, the value enterd as the foreign key should be in the other table
+composite more than one col is used to identify a row
+unique where contraint=unique
+
+DDL create drop, truncate( no rollback), alter
+dml insert update delete(rollaback)
+
+char fixed memory
+varchar only required memory   storage concerns
+nvarchar each character is 2 bytes any language and unique   language concerns
+
+
+
+constarints
+unique
+primary
+check
+foreign
+not null
+
+??????????????
+Correlated Subquery
+
+
+
+
+
+
+
+29-05-2026
+
+cte common table expressions
+
+
+
+procedures  doing tasks by non repetitions
+advantages
+
+
+permissions
+
+any task in the table or only insert so only procedures action
+performance procedure is compiled and executeion plan identified an d ecxecuted   already planned thus performance is increased
+
+
+
+create
+
+
+
+triggers
+
+
+
+
+
+
+EXEC xp_logininfo 'USTR/310054'
+CREATE LOGIN [USTR\310054] FROM WINDOWS;
+
+
+
+
+
+
+01-06-2026
+
+MongoDB
+spped, performance, any type of data can be stored.
+case sensitive
+
+
+sql            mongoDb
+database       database
+tables         collection
+rows           document(Bson) binary JSON
+column         field
+join           slookup
+primarykey     _id(ObjectId)
+
+max size of a bson=16mb
+
+no rigid schema
+
+mongo sh
+show dbs / show databases
+db.createcollection("employees")
+show db
+show collections
+show table
+db.employees.find     //select ^ from employees
+db.employees.insertOne({"name:'Arun; qge:13)
+
+
+db.employees.deletedOne({ id_id:ObjectId})
+
+use admin
+
+show dbs
+use empdb
+show dbs
+db.employees.insertOne({_id:1,name:"msnu"
+dbemployees.find()
+dbemployees.find(gende:male)
+dbemployees.findOne()
+
+db.employees.insertmany([{_id:4,name},{_id=5,name:New}])
+
+db.employee.UpdateOne({_id:3},{{4 set:salary:7868}}
+db.employees.find()
+
+
+
+
+db.employees.UpdateOne({_id:4,{$set:{age:35,salary:676542}}})
+
+
+
+db.employees.UpdateMany({gender:female,{$ins:{salary:1000}}})
+
+
+
+
+
+db.employees.UpdateMany({salary:{$gt:70000}},{$set:{'Highlypaid':true}})
+
+
+db.employees.find({HighlyPaid:true})
+
+db.employees.updateMany({},$unset:{HighlyPaid:"'}})   // column removed
+
+// all rows delete
+db.employees.deleteMany({})
+
+//drop table
+db.employees.drop()
+
+
+
+dbcursor.next()
+
+
+
+db.employees.find({_id:1})
+
+
+
+
+db.employees.find({"address.city":'TRivandrum'}).count()
+
+db.employees.find({$or:[{"address.city":'TRivandrum',"address.city":"COCHIN"}]}).count()
+
+
+db.employees.find({"address.city": {$in:['Trivandrum','Cochin']}})
+db.employees.find({"address.city": {$nin:['Trivandrum','Cochin']}}) // nin is not in
+
+
+
+db.employees.find({$and:[{gender:'Male'},{salary:{gt'700000'}}]})
+db.employees.find({$and:[{gender:'Male'},{salary:{gt'700000'}}]}),{name:1,gender:1,salary:1})
+db.employees.find({$and:[{gender:'Male'},{salary:{gt'700000'}}]}),{name:1,gender:1,salary:1,_id:0})
+db.employees.find({$and:[{gender:'Male'},{salary:{gt'700000'}}]}),{name:1,gender:1,salary:1,_id:0}).sort({salary:-1})
+
+db.employees.find({name:{$regex:/A/}})// have a
+db.employees.find({name:{$regex:/^A/}})   //starts with A
+db.employees.find({name:{$regex:/A$/}})  //ends with A
+
+
+db.employees.UpdateOne({_id:16},{$set:{mobile:"567788766554"}})          // update mob for one
+
+
+//persons having an mob
+db.employees,find({mobile:{$exists:true}})
+db.employees,find({mobile:{$exists:true}},{name:1,_id:0,mobile:1})
+db.employees.find({mobile:{$type:"string"}},
+
+
+
+
+
+db.employees.find({hobbies:'Travel'})  //who all like to travel
+
+db.employees.UpdateOne({_id:20},{$push:{hobbies:'gym'}})
+updateone({_id:20},{$pull:{hobbies:"Gym"}})
+updateone({_id:20},{$pop:{hobbies:1}})    // last one deleted
+updateone({_id:20},{$pop:{hobbies:-1}})   // first one removed
+
+
+
+
+
+console app creation empapp
+var
+
+
+02-06-2026
+
+ado.net
+framework enables u to connect database
+
+data provider is Microsoft.data.sqlclient
+
+PM> install-package Microsoft.Data.SqlClient
+
+
+{
+
+
+
+
+
+create procedure GetSalaryById @Id
+
+
+
+
+
+
+
+
+
+
+
+
+03-06-2026
+
+
+    html.ActionLink("Create New Employee", "Create", "Employee", null, new { @class = "btn btn-primary" })     <-- controller="employee" --></-->
+
+04-06-2026
+
+ef is an orm (object relational mapping) by Microsoft
+
+
+
+
+
+
+
+ef 6.5.2
+
+add-migration "InitialMigration"
+update-database
+add-migration"ModidiedEnityframework"
+
+[stringlength(56)]
+[minlength(3))
+[required]
+[regularexpression("Male|Female")]
+[range(!8,60)]
+
+
+
+
+
+model first
+codefirst
+database first approach
+
+web service provides raw data          
+- soft and  produce xml  data not easy
+-restful json data generatuion
+web sktes styles data
+
+
+
+
+
+
+
+
+
+
+
+
+unified resoures each of the identified by url. for example., ew have done many methods
+
+
+abc.com
+http://abc.com/api/employees
+roy fielding https developed this restful services
+http methods are used min 4 is used if sending 
+http://abc.com/api/employees get
+http://abc.com/api/employees/2
+http://abc.com/api/employees/2 delete
+http://abc.com/api/employees/2 put
+http://abc.com/api/employees post
+
+send a request get a response
+
+https 
+- protocol
+- version
+-url
+-od
+-body**
+-request header
+**
+
+send request header will be null
+
+body sensitive info
+put body delete 
+response status (404)
+so status is important
+response body have the response xml or json anm then status calls
+response header
+
+response and request header
+accept
+application/status
+appln/json or application.json
+
+content negotiation            accept hrader
+request header and response letter meta data 
+
+
+5 responses
+1. 100-199 informational message
+200-299 success
+200-OK
+201- CREATEDATROUTE
+300-399 redirectiona;l
+400-499 client error
+400- BAD REQUEST
+401- unauthorized
+403- forbidden
+404-not found
+500-599 server side 
+500 internal server error
+
+
+
+
+1 reference
+public static void RegisterComponents()
+
+var container = new UnityContainer();
+container.RegisterType<EmpDbContext>();
+container.RegisterType<IEmployeeRepository, EmployeeRepository>();
+container.RegisterType<IEmployeeService, EmployeeServiceImpl>();
+var setting = new MapperConfiguration(config => {
+config.AddProfile<MappingProfile>();
+}):
+IMapper mapper = mappingConfig.CreateMapper();
+container.RegisterInstance<IMapper>(mapper);
+
+
+
+
+
+
+[key] primary key
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Database.Geberared
+
+
+
+
+05-06-2026
+
+http://localhost:{port}/swagger
+
+
+
+http://localhost:{port}/swagger/docs/v1
+
+
+
+
+
+
+
+08-06-2026
+
+
+course origin resourse sharing
+Microsoft.aspnet,webapi.cors
+
+webapiconfig
+
+var cors = new EnableCorsAtttribute(
+origins:"*",
+methods:"*",
+headers:"*"
+);
+Global exception Handler
+
+
+
+
+
+end to end of service layer testing
+
+
+
+
+
+        //var response = await _httpClient.DeleteAsync($"{id}");
+        //response.EnsureSuccessfull

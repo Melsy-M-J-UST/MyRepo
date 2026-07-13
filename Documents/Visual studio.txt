@@ -1,0 +1,27 @@
+In properties
+anonymous authentication enabled
+windows authentication enabled
+open index.cshtml
+
+
+
+
+
+
+
+string? for null variables
+debug-> .exe file
+right click properties appln general output type
+
+
+
+
+
+
+
+
+
+
+
+main menu
+doctor to view his appointments

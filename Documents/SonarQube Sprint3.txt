@@ -1,0 +1,19 @@
+SonarQube Sprint3
+ sqp_f7e25f52789024eff22f43b3e23510eb61c910e2
+
+
+dotnet tool install --global dotnet-sonarscanner
+dotnet sonarscanner begin /k:"HealthAxis3" /d:sonar.host.url="http://localhost:9000"  /d:sonar.token="sqp_f7e25f52789024eff22f43b3e23510eb61c910e2"
+dotnet build
+dotnet sonarscanner end /d:sonar.token="sqp_f7e25f52789024eff22f43b3e23510eb61c910e2"
+
+
+
+
+
+
+
+
+
+
+dotnet sonarscanner begin /k:"HealthAxis3" /d:sonar.host.url="http://localhost:9000"  /d:sonar.token="sqp_f7e25f52789024eff22f43b3e23510eb61c910e2" /d:sonar.cs.vscoveragexml.reportsPaths="coverage.xml" /d:sonar.exclusions="**/Migrations/**,**/*.html,**/*.css,**/*.razor" /d:sonar.coverage.exclusions="**/Controllers/**,**/Repository/**,**/Data/**,**/Model/**,**/Mappings/**,**/Middleware/**,**/Exceptions/**,**/Program.cs,**/HealthAxis3.Shared/**,**/HealthAxis3.AngularUI/**,**/HealthAxis3.BlazorUI/**"

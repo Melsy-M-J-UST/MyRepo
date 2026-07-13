@@ -1,0 +1,37 @@
+PatientService.cs
+
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Linq;
+using AppointmentPortal.ConsoleApp.Data;
+using AppointmentPortal.ConsoleApp.Models;
+
+namespace AppointmentPortal.ConsoleApp.Services.Impl
+{
+    public class PatientService : IPatientService
+    {
+        public List<Patient> GetAllPatients()
+        {
+            return AppDbContext.Patients.ToList();
+        }
+
+        public Patient? GetProfileSummary(int patientId)
+        {
+            var patient = AppDbContext.Patients.Find(p => p.PatientId == patientId);
+            if (patient is null)
+            {
+                Console.WriteLine($"Employee with id {patientId} not found");
+                return null;
+            }
+            return patient;
+        }
+
+        public string RegisterPatient(Patient patient)
+        {
+            AppDbContext.Patients.Add(patient);
+
+            return "Patient registered successfully";
+        }
+    }
+}

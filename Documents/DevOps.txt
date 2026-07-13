@@ -1,0 +1,26 @@
+dev environment{env = server}
+qa env
+production env
+staging environment
+
+
+dependencies are packaged in docker and saved as an image docker image 
+in env cluster of machines so that even if one goes wrong we get the correct outcome
+
+
+code-> dll -> exe-> 
+kubernetis deploy in a group of machines
+
+docker -... image ll the instructions
+
+
+appln to pod after deploying
+
+
+
+
+
+dwv env can the code can be deployed directly. code in gitrepo
+
+
+artifact
