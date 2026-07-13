@@ -1,0 +1,9 @@
+POD 1
+
+application of TIBCO
+Gpay instant messaging 
+
+POD 2
+
+mongo db and sql difference
+the data is stored in bson docs and table
