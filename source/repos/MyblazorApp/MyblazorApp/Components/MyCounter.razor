@@ -1,0 +1,27 @@
+﻿<h3>MyCounter</h3>
+@rendermode InteractiveServer
+
+<h3 class="text-primary">@Count</h3>
+<button class=" btn btn-primary"@onclick="Increment">+1</button>
+<button class=" btn btn-primary" @onclick="Decrement">-1</button>
+<br />
+<br />
+<hr />
+<h3 class=" text-danger">@Name</h3>
+<br />
+<input @bind="Name" @bind:event="oninput"/>
+
+@code {
+    [Parameter]
+    // public int Count { get; set; } = 0;
+    public int Count { get; set; }
+    private void Increment()
+    {
+        Count++;
+    }
+    private void Decrement()
+    {
+        Count--;
+    }
+    private string Name = "UST";
+}
